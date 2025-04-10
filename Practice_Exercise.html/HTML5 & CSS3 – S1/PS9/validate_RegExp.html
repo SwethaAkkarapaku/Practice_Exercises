@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="ps9.css">
+</head>
+<body>
+    <div class="border">
+        <div class="out">
+            <form method="post">
+                <ol>
+                    <li>
+                        <label for="pass">Password</label>
+                        <input type="password" id="pass" autofocus="true" required name="pass" value=""
+                        autocomplete="off" placeholder="8-10 characters"
+                        pattern="^(?=.{8,})(?=.*[a-z])(?=.*[A-Z])(?=.*[\d])(?=.*[\W]).*$"
+                        title="Password must be 8 or more characters with atleast one number, an uppercase letter, and one special character"/>
+                    </li><br>
+                    <li>
+                        <label for="pass_confirm">Password Confirmation</label>
+                        <input type="password" required name="pass_confirm" value=""
+                        autocomplete="off" placeholder="Type your password again"
+                        pattern="^(?=.{8,})(?=.*[a-z])(?=.*[A-Z])(?=.*[\d])(?=.*[\W]).*$"
+                        title="Password must be 8 or more characters with atleast one number, an uppercase letter, and one special character"/>
+                    </li><br>
+                    <li>
+                        <input type="submit" required value="Sign Up">
+                    </li>
+                </ol>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

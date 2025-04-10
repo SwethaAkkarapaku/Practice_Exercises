@@ -1,0 +1,18 @@
+label{
+    float: left;
+    width: 125px;
+}
+li{
+    list-style-type: none;
+}
+.border
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+.out{
+    border: 1px solid black;
+    padding-right: 40px;
+}

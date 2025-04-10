@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="ps4.css">
+</head>
+<body>
+    <div class="container">
+        <form method="post" style="align-items: center;">
+            <fieldset id="personal_information">
+                <legend><b style="font-size: 20px;">Project Information</b></legend>
+                <table width="100%">
+                    <tr>
+                        <td><label for="name">Name</label></td>
+                        <td><input type="text"name="name"id="name"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="priority">Priority</label></td>
+                        <td><input type="range" min="0" max="10" name="priority" id="priority" value="0"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="estimated_hours">Estimated Hours</label></td>
+                        <td><input type="number"name="estimated_hours" min="0" max="10" id="estimated_hours"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="start_date">Start date</label></td>
+                        <td><input type="date" name="start_date" id="start_date" value="2025-10-04"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="email">Email contact</label></td>
+                        <td><input type="email" name="email" id="email"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="url">Staging URL</label></td>
+                        <td><input type="url" name="url" id="url"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="project_color">Project color</label></td>
+                        <td><input type="color" name="project_color" id="project_color"></td>
+                    </tr>
+                </table>
+                <td><input type="submit"value="Submit"></td>
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>

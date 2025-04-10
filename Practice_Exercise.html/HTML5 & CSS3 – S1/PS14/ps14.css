@@ -1,0 +1,7 @@
+.out{
+    border: 1px solid rgb(61, 50, 50);
+    padding-right: 40px;
+}
+a:after{
+    content:"("attr(href)")";
+}
